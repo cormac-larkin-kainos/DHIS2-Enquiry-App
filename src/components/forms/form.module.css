@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    width: 30%;
+}
+
+.form input, select {
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.form textarea {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+.labelWrapper {
+    width: 100%;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.submitButton {
+    background-color: rgb(93, 251, 93);
+    color: #000;
+}
+
+.resetButton {
+    background-color: rgb(255, 68, 68);
+    color: #000;
+}
+
+.submitButton:hover {
+    cursor: pointer;
+}
+
+.resetButton:hover {
+    cursor: pointer;
+}
